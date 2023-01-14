@@ -12,5 +12,7 @@ func main() {
 		for _, res := range responses {
 			fmt.Printf("Result: %s\n", res)
 		}
+	} else {
+		fmt.Printf("error %s", err.Error())
 	}
 }
